@@ -1,0 +1,29 @@
+body {
+  background: #33c8c0;
+  font-family: 'Arimo';
+  font-size: 16px;
+}
+.sidebar {
+  background: #73e899;
+  float: right;
+  width: 30%;
+}
+.main {
+  background: #efb052;
+  float: left;
+  width: 70%;
+}
+.intro {
+  background: #7d81f2;
+  float: left;
+  width: 70%;
+}
+.participation {
+  background: #f4428d;
+}
+.explanation {
+  background: #20bd34;
+}
+.benefits {
+  background: #bfbfff;
+}
