@@ -1,0 +1,492 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1530" measuredH="3262" mockupW="1485" mockupH="3262">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="401" y="0" w="350" h="3262" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="408" y="106" w="334" h="133" measuredW="200" measuredH="170" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="510" y="128" w="-1" h="-1" measuredW="221" measuredH="37" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>CSS%20Zen%20Garden</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SubTitle" x="510" y="163" w="-1" h="-1" measuredW="211" measuredH="26" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>The%20Beauty%20of%20Cascading%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="408" y="260" w="334" h="119" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>A%20demonstration%20of%20what%20can%20be%20accomplished%20through%20CSS-based%20design.%20Select%20any%20style%20sheet%20from%20the%20list%20to%20load%20it%20into%20this%20page.%0A%20%0ADownload%20the%20example%20html%20file%20and%20css%20file</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="401" y="73" w="350" h="763" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>16750848</color>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Canvas" x="408" y="387" w="334" h="441" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::SubTitle" x="416" y="414" w="-1" h="-1" measuredW="242" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>The%20Road%20to%20Enlightenment</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="416" y="129" w="90" h="90" measuredW="77" measuredH="79" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Paragraph" x="416" y="480" w="315" h="321" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Littering%20a%20dark%20and%20dreary%20road%20lay%20the%20past%20relics%20of%20browser-specific%20tags%2C%20incompatible%20DOMs%2C%20broken%20CSS%20support%2C%20and%20abandoned%20browsers.%0A%20%0AWe%20must%20clear%20the%20mind%20of%20the%20past.%20Web%20enlightenment%20has%20been%20achieved%20thanks%20to%20the%20tireless%20efforts%20of%20folk%20like%20the%20W3C%2C%20WaSP%2C%20and%20the%20major%20browser%20creators.%0A%20%0AThe%20CSS%20Zen%20Garden%20invites%20you%20to%20relax%20and%20meditate%20on%20the%20important%20lessons%20of%20the%20masters.%20Begin%20to%20see%20with%20clarity.%20Learn%20to%20use%20the%20time-honored%20techniques%20in%20new%20and%20invigorating%20fashion.%20Become%20one%20with%20the%20web.</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Canvas" x="408" y="845" w="334" h="506" measuredW="100" measuredH="70" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::SubTitle" x="430" y="883" w="170" h="-1" measuredW="210" measuredH="28" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>So%20What%20is%20This%20About%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Paragraph" x="430" y="920" w="280" h="410" measuredW="200" measuredH="80" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>There%20is%20a%20continuing%20need%20to%20show%20the%20power%20of%20CSS.%20The%20Zen%20Garden%20aims%20to%20excite%2C%20inspire%2C%20and%20encourage%20participation.%20To%20begin%2C%20view%20some%20of%20the%20existing%20designs%20in%20the%20list.%20Clicking%20on%20any%20one%20will%20load%20the%20style%20sheet%20into%20this%20very%20page.%20The%20HTML%20remains%20the%20same%2C%20the%20only%20thing%20that%20has%20changed%20is%20the%20external%20CSS%20file.%20Yes%2C%20really.%0A%20%0ACSS%20allows%20complete%20and%20total%20control%20over%20the%20style%20of%20a%20hypertext%20document.%20The%20only%20way%20this%20can%20be%20illustrated%20in%20a%20way%20that%20gets%20people%20excited%20is%20by%20demonstrating%20what%20it%20can%20truly%20be%2C%20once%20the%20reins%20are%20placed%20in%20the%20hands%20of%20those%20able%20to%20create%20beauty%20from%20structure.%20Designers%20and%20coders%20alike%20have%20contributed%20to%20the%20beauty%20of%20the%20web%3B%20we%20can%20always%20push%20it%20further.</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Canvas" x="408" y="1359" w="334" h="582" measuredW="100" measuredH="70" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::SubTitle" x="426" y="1384" w="-1" h="-1" measuredW="111" measuredH="28" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Participation</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Paragraph" x="426" y="1429" w="294" h="495" measuredW="200" measuredH="80" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Strong%20visual%20design%20has%20always%20been%20our%20focus.%20You%20are%20modifying%20this%20page%2C%20so%20strong%20CSS%20skills%20are%20necessary%20too%2C%20but%20the%20example%20files%20are%20commented%20well%20enough%20that%20even%20CSS%20novices%20can%20use%20them%20as%20starting%20points.%20Please%20see%20the%20CSS%20Resource%20Guide%20for%20advanced%20tutorials%20and%20tips%20on%20working%20with%20CSS.%0A%20%0AYou%20may%20modify%20the%20style%20sheet%20in%20any%20way%20you%20wish%2C%20but%20not%20the%20HTML.%20This%20may%20seem%20daunting%20at%20first%20if%20you%u2019ve%20never%20worked%20this%20way%20before%2C%20but%20follow%20the%20listed%20links%20to%20learn%20more%2C%20and%20use%20the%20sample%20files%20as%20a%20guide.%0A%20%0ADownload%20the%20sample%20HTML%20and%20CSS%20to%20work%20on%20a%20copy%20locally.%20Once%20you%20have%20completed%20your%20masterpiece%20%28and%20please%2C%20don%u2019t%20submit%20half-finished%20work%29%20upload%20your%20CSS%20file%20to%20a%20web%20server%20under%20your%20control.%20Send%20us%20a%20link%20to%20an%20archive%20of%20that%20file%20and%20all%20associated%20assets%2C%20and%20if%20we%20choose%20to%20use%20it%20we%20will%20download%20it%20and%20place%20it%20on%20our%20server.</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Canvas" x="408" y="1950" w="334" h="169" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::SubTitle" x="419" y="1973" w="-1" h="-1" measuredW="80" measuredH="28" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Benefits</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Paragraph" x="419" y="2015" w="292" h="89" measuredW="200" measuredH="80" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Why%20participate%3F%20For%20recognition%2C%20inspiration%2C%20and%20a%20resource%20we%20can%20all%20refer%20to%20showing%20people%20how%20amazing%20CSS%20really%20can%20be.%20This%20site%20serves%20as%20equal%20parts%20inspiration%20for%20those%20working%20on%20the%20web%20today%2C%20learning%20tool%20for%20those%20who%20will%20be%20tomorrow%2C%20and%20gallery%20of%20future%20techniques%20we%20can%20all%20look%20forward%20to.</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Canvas" x="408" y="2141" w="334" h="885" measuredW="100" measuredH="70" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::SubTitle" x="416" y="2156" w="-1" h="-1" measuredW="127" measuredH="28" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Requirements</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="422" y="2199" w="309" h="908" measuredW="200" measuredH="80" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Where%20possible%2C%20we%20would%20like%20to%20see%20mostly%20CSS%201%20%26%202%20usage.%20CSS%203%20%26%204%20should%20be%20limited%20to%20widely-supported%20elements%20only%2C%20or%20strong%20fallbacks%20should%20be%20provided.%20The%20CSS%20Zen%20Garden%20is%20about%20functional%2C%20practical%20CSS%20and%20not%20the%20latest%20bleeding-edge%20tricks%20viewable%20by%202%25%20of%20the%20browsing%20public.%20The%20only%20real%20requirement%20we%20have%20is%20that%20your%20CSS%20validates.%0A%20%0ALuckily%2C%20designing%20this%20way%20shows%20how%20well%20various%20browsers%20have%20implemented%20CSS%20by%20now.%20When%20sticking%20to%20the%20guidelines%20you%20should%20see%20fairly%20consistent%20results%20across%20most%20modern%20browsers.%20Due%20to%20the%20sheer%20number%20of%20user%20agents%20on%20the%20web%20these%20days%20%u2014%20especially%20when%20you%20factor%20in%20mobile%20%u2014%20pixel-perfect%20layouts%20may%20not%20be%20possible%20across%20every%20platform.%20That%u2019s%20okay%2C%20but%20do%20test%20in%20as%20many%20as%20you%20can.%20Your%20design%20should%20work%20in%20at%20least%20IE9+%20and%20the%20latest%20Chrome%2C%20Firefox%2C%20iOS%20and%20Android%20browsers%20%28run%20by%20over%2090%25%20of%20the%20population%29.%0A%20%0AWe%20ask%20that%20you%20submit%20original%20artwork.%20Please%20respect%20copyright%20laws.%20Please%20keep%20objectionable%20material%20to%20a%20minimum%2C%20and%20try%20to%20incorporate%20unique%20and%20interesting%20visual%20themes%20to%20your%20work.%20We%u2019re%20well%20past%20the%20point%20of%20needing%20another%20garden-related%20design.%0A%20%0AThis%20is%20a%20learning%20exercise%20as%20well%20as%20a%20demonstration.%20You%20retain%20full%20copyright%20on%20your%20graphics%20%28with%20limited%20exceptions%2C%20see%20submission%20guidelines%29%2C%20but%20we%20ask%20you%20release%20your%20CSS%20under%20a%20Creative%20Commons%20license%20identical%20to%20the%20one%20on%20this%20site%20so%20that%20others%20may%20learn%20from%20your%20work.</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Canvas" x="416" y="3049" w="316" h="167" measuredW="100" measuredH="70" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>10470904</color>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Paragraph" x="431" y="3076" w="280" h="112" measuredW="200" measuredH="80" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>By%20Dave%20Shea.%20Bandwidth%20graciously%20donated%20by%20mediatemple.%20Now%20available%3A%20Zen%20Garden%2C%20the%20book.%0A%20%0AHTML%20CSS%20CC%20A11y%20GH</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Canvas" x="405" y="836" w="341" h="2397" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>7317724</color>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::SubTitle" x="63" y="39" w="-1" h="-1" measuredW="152" measuredH="28" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Select%20a%20Design%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::SubTitle" x="61" y="500" w="92" h="-1" measuredW="105" measuredH="28" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Resources%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::SubTitle" x="63" y="337" w="76" h="-1" measuredW="87" measuredH="28" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Archives%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Link" x="63" y="82" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Link" x="63" y="109" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Link" x="63" y="135" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Link" x="63" y="162" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Link" x="63" y="188" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Link" x="63" y="215" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Link" x="63" y="241" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Link" x="63" y="268" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Link" x="61" y="372" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Link" x="61" y="399" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Link" x="61" y="571" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Link" x="61" y="598" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Link" x="61" y="624" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Link" x="61" y="544" w="-1" h="-1" measuredW="292" measuredH="24" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Mid%20Century%20Modern%20by%09Andrew%20Lohman</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Canvas" x="45" y="19" w="336" h="288" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Canvas" x="45" y="325" w="336" h="139" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Canvas" x="45" y="480" w="336" h="202" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::SubTitle" x="510" y="199" w="-1" h="-1" measuredW="209" measuredH="26" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Style%20Sheets%20CSS%20Design</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::MenuBar" x="445" y="74" w="-1" h="-1" measuredW="263" measuredH="29" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Select%20design%2C%20Archive%2C%20Resource</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Arrow" x="228" y="47" w="238" h="41" measuredW="150" measuredH="100" zOrder="47" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <direction>top</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Arrow" x="120" y="91" w="459" h="246" measuredW="150" measuredH="100" zOrder="48" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Arrow" x="99" y="90" w="563" h="417" measuredW="150" measuredH="100" zOrder="49" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="775" y="0" w="350" h="1117" measuredW="450" measuredH="400" zOrder="50" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Canvas" x="778" y="473" w="341" h="618" measuredW="100" measuredH="70" zOrder="51" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Canvas" x="775" y="73" w="350" h="399" measuredW="100" measuredH="70" zOrder="52" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>16750848</color>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::FieldSet" x="782" y="106" w="334" h="133" measuredW="200" measuredH="170" zOrder="53" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Header</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Title" x="884" y="128" w="-1" h="-1" measuredW="221" measuredH="37" zOrder="54" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>CSS%20Zen%20Garden</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::SubTitle" x="884" y="163" w="-1" h="-1" measuredW="211" measuredH="26" zOrder="55" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>The%20Beauty%20of%20Cascading%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::TextArea" x="782" y="246" w="334" h="119" measuredW="200" measuredH="140" zOrder="56" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>A%20demonstration%20of%20what%20can%20be%20accomplished%20through%20CSS-based%20design.%20Select%20any%20style%20sheet%20from%20the%20list%20to%20load%20it%20into%20this%20page.%0A%20%0ADownload%20the%20example%20html%20file%20and%20css%20file</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Canvas" x="782" y="372" w="334" h="90" measuredW="100" measuredH="70" zOrder="57" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16167531</color>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::SubTitle" x="790" y="399" w="-1" h="-1" measuredW="242" measuredH="28" zOrder="58" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>The%20Road%20to%20Enlightenment</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Image" x="790" y="129" w="90" h="90" measuredW="77" measuredH="79" zOrder="59" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Canvas" x="782" y="488" w="334" h="90" measuredW="100" measuredH="70" zOrder="60" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>15843890</color>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::SubTitle" x="804" y="523" w="170" h="-1" measuredW="210" measuredH="28" zOrder="61" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>So%20What%20is%20This%20About%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Canvas" x="782" y="589" w="334" h="90" measuredW="100" measuredH="70" zOrder="62" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>9684093</color>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::SubTitle" x="800" y="620" w="-1" h="-1" measuredW="111" measuredH="28" zOrder="63" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Participation</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Canvas" x="782" y="686" w="334" h="90" measuredW="100" measuredH="70" zOrder="64" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>7775663</color>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::SubTitle" x="793" y="717" w="-1" h="-1" measuredW="80" measuredH="28" zOrder="65" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Benefits</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Canvas" x="782" y="787" w="334" h="90" measuredW="100" measuredH="70" zOrder="66" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>7317724</color>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::SubTitle" x="790" y="818" w="-1" h="-1" measuredW="127" measuredH="28" zOrder="67" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Requirements</text>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Canvas" x="782" y="891" w="334" h="167" measuredW="100" measuredH="70" zOrder="68" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>0</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>10898809</color>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::Paragraph" x="798" y="918" w="296" h="112" measuredW="200" measuredH="80" zOrder="69" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>By%20Dave%20Shea.%20Bandwidth%20graciously%20donated%20by%20mediatemple.%20Now%20available%3A%20Zen%20Garden%2C%20the%20book.%0A%20%0AHTML%20CSS%20CC%20A11y%20GH</text>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Image" x="1204" y="262" w="326" h="327" measuredW="77" measuredH="79" zOrder="70" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::SubTitle" x="884" y="199" w="-1" h="-1" measuredW="209" measuredH="26" zOrder="71" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Style%20Sheets%20CSS%20Design</text>
+      </controlProperties>
+    </control>
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::MenuBar" x="819" y="74" w="-1" h="-1" measuredW="263" measuredH="29" zOrder="72" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Select%20design%2C%20Archive%2C%20Resource</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Arrow" x="664" y="414" w="118" h="15" measuredW="150" measuredH="100" zOrder="73" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Arrow" x="445" y="536" w="340" h="355" measuredW="150" measuredH="100" zOrder="74" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Arrow" x="445" y="629" w="340" h="730" measuredW="150" measuredH="100" zOrder="75" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Arrow" x="466" y="731" w="319" h="1219" measuredW="150" measuredH="100" zOrder="76" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Arrow" x="445" y="828" w="337" h="1313" measuredW="150" measuredH="100" zOrder="77" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <color>13576743</color>
+        <curvature>1</curvature>
+        <direction>bottom</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
