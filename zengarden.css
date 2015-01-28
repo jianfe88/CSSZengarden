@@ -1,13 +1,35 @@
 body {
-  font-size: 16px;
-}
-* {
+  font-size: 24px;
+  font-family: 'Cookie', cursive;
+*
   margin: 0;
   padding: 0;
 }
+*
 .page-wrapper {
   width: 100%;
-  background: #ffc0cb;
   padding: 15px;
   box-sizing: border-box;
+}
+.intro {
+  background: #ffc0cb;
+}
+header {
+  background: #c0fecb;
+  padding: 0.5em;
+}
+header h1 {
+  text-align: center;
+}
+header h2 {
+  font-size: 1.2em;
+}
+.summary {
+  background: #76ceeb;
+  margin: 1em 0;
+  padding: 0.5em 0;
+}
+.preamble {
+  background: #feceab;
+  padding: 0.5em 0;
 }
