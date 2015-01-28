@@ -1,18 +1,15 @@
 body {
   font-size: 24px;
   font-family: 'Cookie', cursive;
-*
+}
+* {
   margin: 0;
   padding: 0;
 }
-*
 .page-wrapper {
   width: 100%;
   padding: 15px;
   box-sizing: border-box;
-}
-.intro {
-  background: #ffc0cb;
 }
 header {
   background: #c0fecb;
@@ -31,5 +28,48 @@ header h2 {
 }
 .preamble {
   background: #feceab;
+  background-image: url("img/enlightenment.jpg");
+  background-position: center;
+  background-size: cover;
   padding: 0.5em 0;
+}
+.explanation {
+  background: #feceab;
+  background-image: url("img/quees.jpg");
+  background-position: left;
+  background-size: cover;
+  padding: 0.5em 0;
+}
+.participation {
+  background: #feceab;
+  background-image: url("img/participacion.jpg");
+  background-positionn: center;
+  background-size: cover;
+  padding: 0.5em 0;
+}
+.benefits {
+  background: #feceab;
+  background-image: url("img/benefits.jpg");
+  background-positionn: center;
+  background-size: cover;
+  padding: 0.5em 0;
+}
+.requirements {
+  background: #feceab;
+  background-image: url("img/requirement.png");
+  background-positionn: center;
+  background-size: cover;
+  padding: 0.5em 0;
+}
+footer {
+  background: #ffc0cb;
+}
+.design-selection {
+  background: rgba(142,50,104,0.3);
+}
+.design-archives {
+  background: rgba(178,151,63,0.3);
+}
+.zen-resources {
+  background: #2b5a71 0.3;
 }
