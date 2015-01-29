@@ -10,11 +10,15 @@ body {
   background-image: url("img/fondo_zen_01.png");
   background-attachment: fixed;
   background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #333;
   width: 100%;
   padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 header {
@@ -34,18 +38,27 @@ header h2 {
   background-image: url("img/iluminacion.png");
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: 25rem;
+  -moz-background-size: 25rem;
+  background-size: 25rem;
   padding: 0.5em 0;
 }
 .explanation {
   background-image: url("img/whatsthat.png");
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: 20rem;
+  -moz-background-size: 20rem;
+  background-size: 20rem;
   padding: 0.5em 0;
 }
 .participation {
   background-image: url("img/participacion.png");
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: 25rem;
+  -moz-background-size: 25rem;
+  background-size: 25rem;
   padding: 0.5em 0;
 }
 .benefits {
@@ -58,5 +71,13 @@ header h2 {
   background-image: url("img/requirement.png");
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: 25rem;
+  -moz-background-size: 25rem;
+  background-size: 25rem;
   padding: 0.5em 0;
+}
+.zen-resources {
+  background: rgba(43,90,113,0.3);
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
 }
