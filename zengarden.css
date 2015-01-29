@@ -7,12 +7,17 @@ body {
   padding: 0;
 }
 .page-wrapper {
+  background-image: url("img/fondo_zen_01.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
   width: 100%;
   padding: 15px;
   box-sizing: border-box;
 }
 header {
-  background: #c0fecb;
   padding: 0.5em;
 }
 header h1 {
@@ -22,54 +27,36 @@ header h2 {
   font-size: 1.2em;
 }
 .summary {
-  background: #76ceeb;
   margin: 1em 0;
   padding: 0.5em 0;
 }
 .preamble {
-  background: #feceab;
-  background-image: url("img/enlightenment.jpg");
+  background-image: url("img/iluminacion.png");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
   padding: 0.5em 0;
 }
 .explanation {
-  background: #feceab;
-  background-image: url("img/quees.jpg");
-  background-position: left;
-  background-size: cover;
+  background-image: url("img/whatsthat.png");
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0.5em 0;
 }
 .participation {
-  background: #feceab;
-  background-image: url("img/participacion.jpg");
-  background-positionn: center;
-  background-size: cover;
+  background-image: url("img/participacion.png");
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0.5em 0;
 }
 .benefits {
-  background: #feceab;
-  background-image: url("img/benefits.jpg");
-  background-positionn: center;
-  background-size: cover;
+  background-image: url("img/benefits.png");
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0.5em 0;
 }
 .requirements {
-  background: #feceab;
   background-image: url("img/requirement.png");
-  background-positionn: center;
-  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 0.5em 0;
-}
-footer {
-  background: #ffc0cb;
-}
-.design-selection {
-  background: rgba(142,50,104,0.3);
-}
-.design-archives {
-  background: rgba(178,151,63,0.3);
-}
-.zen-resources {
-  background: rgba(43,90,113,0.3);
 }
