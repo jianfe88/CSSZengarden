@@ -1,33 +1,59 @@
 @import nib
-
+@font-face {
+	font-family: 'Conv_BLADRMF_';
+	src: url('fonts/BLADRMF_.eot');
+	src: local('☺'), url('fonts/BLADRMF_.woff') format('woff'), url('fonts/BLADRMF_.ttf') format('truetype'), url('fonts/BLADRMF_.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 body 
-	font-size 24px
-	font-family: 'Cookie', cursive;
+	font-size 16px
+	font-family: 'Orbitron', sans-serif;
+	font-weight 700
+	color #234A5D
 *
 	margin 0
 	padding 0
+a 
+	text-decoration none
+	color #57E281	
+	background #6F6526
+h1, h2, h3, h4
+	font-family 'Conv_BLADRMF_'
+	color #BB4389
+	margin 0 0 1em 0
+	border-bottom 8px groove #57E281
+h1
+	font-size 2em
+	text-align center
+	// border none
+h2
+	font-size 1.4em
+	
+h3
+	font-size 1.2em
+
+p
+	line-height 1.4em
+	letter-spacing .1em
+header
+	// background #C0FECB
+	padding .5em
 	
 .page-wrapper
-	background-image: url(img/fondo_zen_01.png)
+	// background-image: url(img/fondo_zen_01.png)
+	background-color: #ffe999
 	background-attachment fixed
 	background-position center
 	background-size cover
 	background-repeat no-repeat
-	color #333
+	// color #333
 	width 100%
 	padding 15px
 	box-sizing border-box
 	
 .intro
 	// background pink
-
-header
-	// background #C0FECB
-	padding .5em
-	h1
-		text-align center
-	h2
-		font-size 1.2em
 
 .summary
 	// background #76CEEB
@@ -36,7 +62,7 @@ header
 
 .preamble
 	// background #FECEAB
-	background-image url(img/iluminacion.png) 
+	// background-image url(img/iluminacion.png) 
 	background-position: center
 	background-repeat no-repeat
 	background-size 25rem
@@ -45,7 +71,7 @@ header
 
 .explanation
 	// background #FECEAB
-	background-image url(img/whatsthat.png) 
+	// background-image url(img/whatsthat.png) 
 	background-position center
 	background-repeat no-repeat
 	background-size 20rem
@@ -53,7 +79,7 @@ header
 
 .participation
 	// background #FECEAB
-	background-image url(img/participacion.png) 
+	// background-image url(img/participacion.png) 
 	background-position: center
 	background-repeat no-repeat
 	background-size 25rem
@@ -61,14 +87,14 @@ header
 
 .benefits
 	// background #FECEAB
-	background-image url(img/benefits.png) 
+	// background-image url(img/benefits.png) 
 	background-position: center
 	background-repeat no-repeat
 	padding .5em 0
 	
 .requirements
 	// background #FECEAB
-	background-image url(img/requirement.png) 
+	// background-image url(img/requirement.png) 
 	background-position: center
 	background-repeat no-repeat
 	background-size 25rem
@@ -82,11 +108,12 @@ aside
 	
 .design-selection
 	// background rgba(142, 50,104,.3)
+	margin-top 1em
 	
 .design-archives
 	// background rgba(178,151, 63,.3)
+	margin-top 1em
 	
 .zen-resources
-	background rgba( 43, 90,113,.3)
-	border-radius 25px
+	margin-top 1em
 	

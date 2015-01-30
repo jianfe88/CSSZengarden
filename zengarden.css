@@ -1,41 +1,70 @@
+@font-face {
+  font-family: 'Conv_BLADRMF_';
+  src: url("fonts/BLADRMF_.eot");
+  src: local('☺'), url("fonts/BLADRMF_.woff") format('woff'), url("fonts/BLADRMF_.ttf") format('truetype'), url("fonts/BLADRMF_.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  font-size: 24px;
-  font-family: 'Cookie', cursive;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  color: #234a5d;
 }
 * {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: #57e281;
+  background: #6f6526;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Conv_BLADRMF_';
+  color: #bb4389;
+  margin: 0 0 1em 0;
+  border-bottom: 8px groove #57e281;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.2em;
+}
+p {
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+}
+header {
+  padding: 0.5em;
+}
 .page-wrapper {
-  background-image: url("img/fondo_zen_01.png");
+  background-color: #ffe999;
   background-attachment: fixed;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #333;
   width: 100%;
   padding: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-header {
-  padding: 0.5em;
-}
-header h1 {
-  text-align: center;
-}
-header h2 {
-  font-size: 1.2em;
-}
 .summary {
   margin: 1em 0;
   padding: 0.5em 0;
 }
 .preamble {
-  background-image: url("img/iluminacion.png");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: 25rem;
@@ -44,7 +73,6 @@ header h2 {
   padding: 0.5em 0;
 }
 .explanation {
-  background-image: url("img/whatsthat.png");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: 20rem;
@@ -53,7 +81,6 @@ header h2 {
   padding: 0.5em 0;
 }
 .participation {
-  background-image: url("img/participacion.png");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: 25rem;
@@ -62,13 +89,11 @@ header h2 {
   padding: 0.5em 0;
 }
 .benefits {
-  background-image: url("img/benefits.png");
   background-position: center;
   background-repeat: no-repeat;
   padding: 0.5em 0;
 }
 .requirements {
-  background-image: url("img/requirement.png");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: 25rem;
@@ -76,8 +101,12 @@ header h2 {
   background-size: 25rem;
   padding: 0.5em 0;
 }
+.design-selection {
+  margin-top: 1em;
+}
+.design-archives {
+  margin-top: 1em;
+}
 .zen-resources {
-  background: rgba(43,90,113,0.3);
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
+  margin-top: 1em;
 }
