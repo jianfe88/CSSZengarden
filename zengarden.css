@@ -36,11 +36,11 @@ h1,
 h2,
 h3,
 h4 {
-  border-bottom: 12px groove #8763dc;
+  border-top: 12px groove #8763dc;
   color: #bb4389;
   font-family: 'Conv_BLADRMF_';
   margin: 0 0 1em 0;
-  padding: 0 0 0.5em 0;
+  padding: 0.3em 0 0.2em 0;
   text-shadow: 3px 3px 0.1em #57e281;
 }
 h1 {
@@ -115,8 +115,23 @@ header {
   background-size: 25rem;
   padding: 0.5em 0;
 }
+aside {
+  max-width: 950px;
+}
 .design-selection {
+  max-width: 500px;
   margin-top: 1em;
+}
+li {
+  color: transparent;
+  list-style: none;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+}
+.designer-name {
+  float: right;
+  display: inline-block;
+  text-transform: uppercase;
 }
 .design-archives {
   margin-top: 1em;
