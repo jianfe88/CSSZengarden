@@ -5,18 +5,26 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?-t3ztlw");
+  src: url("fonts/icomoon.eot?#iefix-t3ztlw") format('embedded-opentype'), url("fonts/icomoon.woff?-t3ztlw") format('woff'), url("fonts/icomoon.ttf?-t3ztlw") format('truetype'), url("fonts/icomoon.svg?-t3ztlw#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  color: #234a5d;
+  color: #23aa5d;
   font-family: 'Orbitron', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 a {
-  text-decoration: none;
   color: #57e281;
   background: #49337a;
   -webkit-border-radius: 3px;
@@ -29,39 +37,39 @@ a:hover {
 }
 p abbr {
   color: #f16d58;
-  font-weight: 900;
-  text-shadow: 1px 1px 0.2em #41b263;
-}
-h1,
-h2,
-h3,
-h4 {
-  border-top: 12px groove #8763dc;
-  color: #bb4389;
-  font-family: 'Conv_BLADRMF_';
-  margin: 0 0 1em 0;
-  padding: 0.3em 0 0.2em 0;
-  text-shadow: 3px 3px 0.1em #57e281;
 }
 h1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #bb4389;
+  font-family: 'Conv_BLADRMF_';
+  letter-spacing: 0.4em;
+  padding: 0.5em 0;
+  text-align: center;
+  text-shadow: 4px -2px 0.1em #fffffe;
   font-size: 2em;
   text-align: center;
 }
 h2 {
-  font-size: 1.4em;
+  font-family: 'Conv_BLADRMF_';
+  font-size: 1.6em;
+  color: #bb4389;
 }
 h3 {
   font-size: 1.2em;
+  color: #bb4389;
+  text-transform: uppercase;
 }
 p {
-  line-height: 1.4em;
+  line-height: 1.3em;
   letter-spacing: 0.1em;
+  text-align: justify;
 }
 header {
   padding: 0.5em;
 }
 .page-wrapper {
-  background-attachment: fixed;
   background-color: #040323;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,69 +81,140 @@ header {
   box-sizing: border-box;
   padding: 15px;
   width: 100%;
+  height: 100%;
 }
-.summary {
-  margin: 1em 0;
-  padding: 0.5em 0;
+.intro div,
+.main div {
+  padding: 1em 0;
 }
+.summary,
 .preamble {
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 25rem;
-  -moz-background-size: 25rem;
-  background-size: 25rem;
-  padding: 0.5em 0;
+  padding: 0.3em 0;
 }
-.explanation {
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 20rem;
-  -moz-background-size: 20rem;
-  background-size: 20rem;
-  padding: 0.5em 0;
+/********footer***********/
+footer {
+  background: #49337a;
+  margin: 1em 0;
+  text-align: center;
+  padding: 1em 0;
 }
-.participation {
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 25rem;
-  -moz-background-size: 25rem;
-  background-size: 25rem;
-  padding: 0.5em 0;
+footer a {
+  background: none;
+  color: transparent;
+  display: inline-block;
+  height: 40px;
+  margin: 0 0.3em;
+  overflow: hidden;
+  position: relative;
+  width: 40px;
+  color: rgba(255,255,255,0);
+  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -o-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -ms-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
 }
-.benefits {
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0.5em 0;
+footer a:before {
+  -webkit-font-smoothing: antialiased;
+  color: rgba(255,255,255,0.9);
+  display: block;
+  font-family: 'icomoon';
+  font-size: 40px;
+  font-variant: normal;
+  font-weight: normal;
+  left: 0;
+  line-height: 1;
+  overflow: visible;
+  position: absolute;
+  speak: none;
+  text-indent: 0;
+  text-transform: none;
+  top: 3px;
 }
-.requirements {
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 25rem;
-  -moz-background-size: 25rem;
-  background-size: 25rem;
-  padding: 0.5em 0;
+footer a:hover {
+  color: transparent;
+  background: none;
+  -webkit-box-shadow: -5px -5px 5px #f00;
+  box-shadow: -5px -5px 5px #f00;
 }
-aside {
-  max-width: 950px;
+.zen-validate-html:before {
+  content: "\eadf";
 }
+.zen-validate-css:before {
+  content: "\eae1";
+}
+.zen-license:before {
+  content: "\eab1";
+}
+.zen-accessibility:before {
+  content: "\e9b2";
+}
+.zen-github:before {
+  content: "\eab1";
+}
+/************FIN footer***********/
+/************aside****************/
+.sidebar {
+  background: #333;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px -3px 0.3em #fff;
+  box-shadow: 3px -3px 0.3em #fff;
+  margin-top: 1em;
+  padding: 0.5em;
+  max-width: 350px;
+  width: 100%;
+}
+.sidebar a {
+  background: transparent;
+}
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4 {
+  border-top: none;
+}
+/*************design selection *****/
 .design-selection {
-  max-width: 500px;
+  display: block;
   margin-top: 1em;
 }
-li {
-  color: transparent;
-  list-style: none;
-  font-size: 0.7em;
+.design-selection li {
   margin-bottom: 1em;
 }
+.design-name {
+  color: #f00;
+}
 .designer-name {
-  float: right;
-  display: inline-block;
+  display: block;
   text-transform: uppercase;
 }
+/********** archives ***************/
 .design-archives {
   margin-top: 1em;
 }
+/**** aside resources ***********/
 .zen-resources {
+  font-family: 'icomoon';
   margin-top: 1em;
+}
+.zen-resources a {
+  padding: 0.3em;
+}
+.zen-resources .view-css a:before {
+  content: '\e9ce';
+}
+.zen-resources .css-resources a:before {
+  content: '\e991';
+}
+.zen-resources .zen-faq a:before {
+  content: '\e991';
+}
+.zen-resources .zen-submit a:before {
+  content: '\e908';
+}
+.zen-resources .zen-translations a:before {
+  content: '\e9c9';
 }
