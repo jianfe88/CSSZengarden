@@ -158,13 +158,9 @@ footer a:hover {
 /************aside****************/
 .sidebar {
   background: #333;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 3px -3px 0.3em #fff;
-  box-shadow: 3px -3px 0.3em #fff;
   margin-top: 1em;
-  padding: 0.5em;
   max-width: 350px;
+  padding: 0.5em;
   width: 100%;
 }
 .sidebar a {
@@ -176,13 +172,13 @@ footer a:hover {
 .sidebar h4 {
   border-top: none;
 }
+.sidebar li {
+  margin: 0.7em 0;
+}
 /*************design selection *****/
 .design-selection {
   display: block;
   margin-top: 1em;
-}
-.design-selection li {
-  margin-bottom: 1em;
 }
 .design-name {
   color: #f00;
@@ -191,13 +187,35 @@ footer a:hover {
   display: block;
   text-transform: uppercase;
 }
-/********** archives ***************/
+/**************** aside archives ***************/
 .design-archives {
+  position: relative;
   margin-top: 1em;
 }
-/**** aside resources ***********/
+.design-archives li {
+  display: inline-block;
+  line-height: 3em;
+}
+.next {
+  position: absolute;
+  left: 70%;
+}
+.next a {
+  background-image: url("img/rocket-right.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  -webkit-background-size: 4em;
+  -moz-background-size: 4em;
+  background-size: 4em;
+  color: transparent;
+  display: inline-block;
+  height: 3em;
+}
+.next a:hover {
+  margin-left: 1.5em;
+}
+/**************** aside resources ***********/
 .zen-resources {
-  font-family: 'icomoon';
   margin-top: 1em;
 }
 .zen-resources a {
@@ -205,16 +223,21 @@ footer a:hover {
 }
 .zen-resources .view-css a:before {
   content: '\e9ce';
+  font-family: 'icomoon';
 }
 .zen-resources .css-resources a:before {
   content: '\e991';
+  font-family: 'icomoon';
 }
 .zen-resources .zen-faq a:before {
   content: '\e991';
+  font-family: 'icomoon';
 }
 .zen-resources .zen-submit a:before {
   content: '\e908';
+  font-family: 'icomoon';
 }
 .zen-resources .zen-translations a:before {
   content: '\e9c9';
+  font-family: 'icomoon';
 }

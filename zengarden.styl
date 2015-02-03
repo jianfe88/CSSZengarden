@@ -154,59 +154,74 @@ footer a:hover
 /************aside****************/
 .sidebar
 	background #333
-	border-radius 5px
-	box-shadow 3px -3px .3em white
+	// border-radius 5px
+	// box-shadow 3px -3px .3em white
 	margin-top 1em
-	padding .5em
 	max-width 350px
+	padding .5em
 	width 100%
 	a
 		background transparent
 	h1, h2, h3, h4
 		border-top none
+	li
+		margin .7em 0
 /*************design selection *****/	
 .design-selection
 	display block
 	margin-top 1em
-	li
-		// color transparent
-		// font-size .7em
-		margin-bottom 1em
 .design-name
 	color red
-// .design-name:after
-// 		color white
-// 		float left
-// 		width 0
-// 		white-space nowrap
-// 		content "................................................................................................................................................................"
+
 .designer-name
 	display block
 	text-transform uppercase
 	
-/********** archives ***************/
+/**************** aside archives ***************/
 .design-archives
-	// background rgba(178,151, 63,.3)
+	position relative
 	margin-top 1em
+	li 
+		display inline-block
+		line-height 3em
 	
-/**** aside resources ***********/
+.next 
+	position absolute
+	left 70%
+	a
+		background-image: url(img/rocket-right.png) 
+		background-repeat no-repeat
+		background-position: 0 50% 
+		background-size 4em
+		color transparent
+		display inline-block
+		height 3em
+	a:hover
+		// background: pink
+		margin-left 1.5em
+		
+/**************** aside resources ***********/
 .zen-resources
-	font-family 'icomoon'
 	margin-top 1em
 	a
 		padding .3em
 	.view-css a:before
 		content '\e9ce'
+		font-family 'icomoon'
 		
 	.css-resources a:before
 		content '\e991'
+		font-family 'icomoon'
 	
 	.zen-faq a:before
 		content '\e991'
+		font-family 'icomoon'
 	
 	.zen-submit a:before
 		content '\e908'
+		font-family 'icomoon'
 	
 	.zen-translations a:before
 		content '\e9c9'
+		font-family 'icomoon'
 
