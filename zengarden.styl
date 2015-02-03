@@ -153,7 +153,7 @@ footer a:hover
 /************FIN footer***********/
 /************aside****************/
 .sidebar
-	background #333
+	// background #fff
 	// border-radius 5px
 	// box-shadow 3px -3px .3em white
 	margin-top 1em
@@ -165,15 +165,21 @@ footer a:hover
 	h1, h2, h3, h4
 		border-top none
 	li
-		margin .7em 0
+		padding .7em
 /*************design selection *****/	
 .design-selection
-	display block
 	margin-top 1em
+	li:nth-child(2n+1)
+		background rgba(255, 185, 174, 0.95)
+		
+	li:nth-child(2n)
+		background rgba(255, 141, 122, 0.95)
 .design-name
-	color red
+	color #A10000
+	display block
 
 .designer-name
+	color #26FC41
 	display block
 	text-transform uppercase
 	

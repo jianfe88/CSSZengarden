@@ -157,7 +157,6 @@ footer a:hover {
 /************FIN footer***********/
 /************aside****************/
 .sidebar {
-  background: #333;
   margin-top: 1em;
   max-width: 350px;
   padding: 0.5em;
@@ -173,17 +172,24 @@ footer a:hover {
   border-top: none;
 }
 .sidebar li {
-  margin: 0.7em 0;
+  padding: 0.7em;
 }
 /*************design selection *****/
 .design-selection {
-  display: block;
   margin-top: 1em;
 }
+.design-selection li:nth-child(2n+1) {
+  background: rgba(255,185,174,0.95);
+}
+.design-selection li:nth-child(2n) {
+  background: rgba(255,141,122,0.95);
+}
 .design-name {
-  color: #f00;
+  color: #a10000;
+  display: block;
 }
 .designer-name {
+  color: #26fc41;
   display: block;
   text-transform: uppercase;
 }
