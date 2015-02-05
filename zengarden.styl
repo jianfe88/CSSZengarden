@@ -28,16 +28,14 @@ body
 	list-style none
 	text-decoration none
 a 
-	color #57E281	
-	background #49337A
-	border-radius 3px
+	color #5140E8	
 a:hover
-	color #49337A
-	background-color #57E281
+	color #FF0000
+	// background-color #23aa5d
 	text-decoration underline
 	
 p abbr
-	color #F16D58
+	color #42FF65
 	// font-weight 900
 	// text-shadow 1px 1px .2em #41B263
 		
@@ -152,16 +150,14 @@ footer a:hover
 	content: "\eab1";	
 /************FIN footer***********/
 /************aside****************/
-.sidebar
-	// background #fff
-	// border-radius 5px
-	// box-shadow 3px -3px .3em white
-	margin-top 1em
+.wrapper
+	// background pink
+	// display flex
+	flex-direction row
+	margin-top 5em
 	max-width 350px
 	padding .5em
 	width 100%
-	a
-		background transparent
 	h1, h2, h3, h4
 		border-top none
 	li
@@ -169,43 +165,98 @@ footer a:hover
 /*************design selection *****/	
 .design-selection
 	margin-top 1em
+	ul 
+		background #3B72FF
+		color #666
 	li:nth-child(2n+1)
-		background rgba(255, 185, 174, 0.95)
+		background rgba(255, 255, 255, .5)
 		
 	li:nth-child(2n)
-		background rgba(255, 141, 122, 0.95)
+		background rgba(255, 255, 255, .3)
 .design-name
-	color #A10000
-	display block
-
-.designer-name
-	color #26FC41
+	color #5140E8
 	display block
 	text-transform uppercase
+	font-weight 500
+
+.designer-name
+	color #666
+	padding-top .7rem 
+	display inline-block
 	
 /**************** aside archives ***************/
 .design-archives
+	// order -1
+	background #90ffa5
 	position relative
-	margin-top 1em
+	// margin-top 1em
+	h3 
+		visibility  hidden
+		height 0
+		
+	ul
+		display flex
+		justify-content space-between
+		align-items center
+		height 8rem
+		padding 0 .5rem
 	li 
+		border-radius 50%	
 		display inline-block
-		line-height 3em
+		
+		
+.previous
+	background #4d5f8d
+	order -1
+	width 3rem
+	height 3rem
 	
-.next 
-	position absolute
-	left 70%
 	a
-		background-image: url(img/rocket-right.png) 
+		// text-align right	
+		background-image: url(img/rocket-left.png)
 		background-repeat no-repeat
 		background-position: 0 50% 
-		background-size 4em
+		background-size 3rem
 		color transparent
 		display inline-block
-		height 3em
-	a:hover
-		// background: pink
-		margin-left 1.5em
+		height 3rem
+	:hover, :focus
+		margin-left -.6rem
+.next 
+	background #4d5f8d
+	order 1
+	width 3rem
+	height 3rem
+	a
+		background-image: url(img/rocket-right.png)
+		background-repeat no-repeat
+		background-position: 0 50% 
+		background-size 3rem
+		color transparent
+		display inline-block
+		height 3rem
+	:hover, :focus
+		margin-left .6rem
+
+.viewall
+	background #4d5f8d
+	width 6rem
+	height 6rem
+	text-align center
+	text-transform uppercase
+	a
+		display inline-block
+		color transparent
+		background-image url(img/viewall.png)
+		background-repeat no-repeat
+		background-position 50% 50%
+		background-size 5.5rem
+		height 6rem
+		padding 0
+	:hover
+		background-size 6rem
 		
+
 /**************** aside resources ***********/
 .zen-resources
 	margin-top 1em
