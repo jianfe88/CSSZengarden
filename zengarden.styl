@@ -34,7 +34,7 @@ a:hover
 	// background-color #23aa5d
 	text-decoration underline
 	
-p abbr
+abbr
 	color #42FF65
 	// font-weight 900
 	// text-shadow 1px 1px .2em #41B263
@@ -68,26 +68,37 @@ p
 header
 	// background #C0FECB
 	padding .5em
-	
+
+/*------------------------------------*\
+    $page-wrapper contenedor general
+\*------------------------------------*/	
 .page-wrapper
 	background-color: #040323
-	background-position center
-	background-repeat no-repeat
-	background-size cover
 	box-sizing border-box
-	padding 15px
+	padding .5rem
 	width 100%
-	height 100%
-.intro 
-.main 
-	div
-		padding 1em 0
 	
 
+
+
+/*------------------------------------*\
+    $intro
+\*------------------------------------*/
+.intro 
+	div
+		padding 1em 0
 .summary
 	
 .preamble
 	padding .3em 0
+	
+/*------------------------------------*\
+    $main
+\*------------------------------------*/
+.main 
+	div
+		padding 1em 0
+
 	
 // .explanation
 	
@@ -97,47 +108,50 @@ header
 		
 // .requirements
 	
-/********footer***********/
+
+
+
+/*
+*$footer
+*/
 footer 
 	background #49337A
 	margin 1em 0
 	text-align center
 	padding 1em 0
 footer a 
+	-moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+	-webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
 	background none
 	color transparent
+	color: rgba(255, 255, 255, 0);
 	display: inline-block;
 	height: 40px;
-	// line-height 40px
 	margin: 0 0.3em;
 	overflow: hidden;
-	// padding: .3em 
 	position: relative;
-	width: 40px;
-	color: rgba(255, 255, 255, 0);
-	-webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-	-moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
 	transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+	width: 40px;
 footer a:before
-	-webkit-font-smoothing: antialiased;
-	color: rgba(255, 255, 255, .9);
-	display: block;
-	font-family: 'icomoon';
-	font-size: 40px;
-	font-variant: normal;
-	font-weight: normal;
-	left: 0;
-	line-height: 1;
-	overflow: visible;
-	position: absolute;
-	speak: none;
-	text-indent: 0;
-	text-transform: none;
-	top: 3px;
+		-webkit-font-smoothing: antialiased;
+		color: rgba(255, 255, 255, .9);
+		display: block;
+		font-family: 'icomoon';
+		font-size: 40px;
+		font-variant: normal;
+		font-weight: normal;
+		left: 0;
+		line-height: 1;
+		overflow: visible;
+		position: absolute;
+		speak: none;
+		text-indent: 0;
+		text-transform: none;
+		top: 3px;
 footer a:hover
-	color transparent
-	background none
-	box-shadow -5px -5px 5px red
+		color transparent
+		background none
+		box-shadow -5px -5px 5px red
 .zen-validate-html:before
 	content: "\eadf";
 .zen-validate-css:before
@@ -147,22 +161,32 @@ footer a:hover
 .zen-accessibility:before
 	content: "\e9b2";
 .zen-github:before
-	content: "\eab1";	
-/************FIN footer***********/
-/************aside****************/
+	content: "\eab1";
+
+
+
+
+
+/*------------------------------------*\
+    $sidebar
+\*------------------------------------*/
 .wrapper
 	// background pink
 	// display flex
 	flex-direction row
 	margin-top 5em
-	max-width 350px
+	// max-width 350px
 	padding .5em
 	width 100%
 	h1, h2, h3, h4
 		border-top none
 	li
 		padding .7em
-/*************design selection *****/	
+
+
+/*
+*$design-selection
+*/	
 .design-selection
 	margin-top 1em
 	ul 
@@ -178,13 +202,15 @@ footer a:hover
 	display block
 	text-transform uppercase
 	font-weight 500
-
 .designer-name
 	color #666
 	padding-top .7rem 
 	display inline-block
-	
-/**************** aside archives ***************/
+
+
+/*
+*$design-archives
+*/
 .design-archives
 	// order -1
 	background #90ffa5
@@ -197,14 +223,13 @@ footer a:hover
 	ul
 		display flex
 		justify-content space-between
+
 		align-items center
 		height 8rem
 		padding 0 .5rem
 	li 
 		border-radius 50%	
 		display inline-block
-		
-		
 .previous
 	background #4d5f8d
 	order -1
@@ -237,7 +262,6 @@ footer a:hover
 		height 3rem
 	:hover, :focus
 		margin-left .6rem
-
 .viewall
 	background #4d5f8d
 	width 6rem
@@ -255,30 +279,54 @@ footer a:hover
 		padding 0
 	:hover
 		background-size 6rem
-		
-
-/**************** aside resources ***********/
+/*
+*$zen-reources
+*/
 .zen-resources
-	margin-top 1em
-	a
-		padding .3em
-	.view-css a:before
-		content '\e9ce'
-		font-family 'icomoon'
+	// font-size 3rem
+	background-color: peru
+	h3
+		display none
+	ul
+		// background-color: #FFF
+		border-spacing 5px
+		width 100%
 		
-	.css-resources a:before
-		content '\e991'
-		font-family 'icomoon'
+		display flex
+		justify-content space-around
+	li 
+		border-radius 50%
+		// border 2px solid #f86
+		// background-color: #ddd
+		position relative
+		overflow hidden
+		width 3rem
+		height 3rem
+	a, abbr
+		color transparent
+	a:before
+		display inline-block
+		height 3rem
+		width 3rem
+		font-size 2.5rem
+		color grey
+.view-css a:before
+	content '\e9ce'
+	font-family 'icomoon'
 	
-	.zen-faq a:before
-		content '\e991'
-		font-family 'icomoon'
-	
-	.zen-submit a:before
-		content '\e908'
-		font-family 'icomoon'
-	
-	.zen-translations a:before
-		content '\e9c9'
-		font-family 'icomoon'
+.css-resources a:before
+	content '\e991'
+	font-family 'icomoon'
+
+.zen-faq a:before
+	content '\e991'
+	font-family 'icomoon'
+
+.zen-submit a:before
+	content '\e908'
+	font-family 'icomoon'
+
+.zen-translations a:before
+	content '\e9c9'
+	font-family 'icomoon'
 

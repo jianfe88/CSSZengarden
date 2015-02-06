@@ -31,7 +31,7 @@ a:hover {
   color: #f00;
   text-decoration: underline;
 }
-p abbr {
+abbr {
   color: #42ff65;
 }
 h1 {
@@ -65,29 +65,33 @@ p {
 header {
   padding: 0.5em;
 }
+/*------------------------------------*     $page-wrapper contenedor general
+\*------------------------------------*/
 .page-wrapper {
   background-color: #040323;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 0.5rem;
   width: 100%;
-  height: 100%;
 }
-.intro div,
-.main div {
+/*------------------------------------*     $intro
+\*------------------------------------*/
+.intro div {
   padding: 1em 0;
 }
 .summary,
 .preamble {
   padding: 0.3em 0;
 }
-/********footer***********/
+/*------------------------------------*     $main
+\*------------------------------------*/
+.main div {
+  padding: 1em 0;
+}
+/*
+*$footer
+*/
 footer {
   background: #49337a;
   margin: 1em 0;
@@ -95,22 +99,22 @@ footer {
   padding: 1em 0;
 }
 footer a {
+  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   background: none;
   color: transparent;
+  color: rgba(255,255,255,0);
   display: inline-block;
   height: 40px;
   margin: 0 0.3em;
   overflow: hidden;
   position: relative;
-  width: 40px;
-  color: rgba(255,255,255,0);
-  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -o-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -ms-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  width: 40px;
 }
 footer a:before {
   -webkit-font-smoothing: antialiased;
@@ -150,8 +154,8 @@ footer a:hover {
 .zen-github:before {
   content: "\eab1";
 }
-/************FIN footer***********/
-/************aside****************/
+/*------------------------------------*     $sidebar
+\*------------------------------------*/
 .wrapper {
   -webkit-box-orient: horizontal;
   -moz-box-orient: horizontal;
@@ -160,7 +164,6 @@ footer a:hover {
   -ms-flex-direction: row;
   flex-direction: row;
   margin-top: 5em;
-  max-width: 350px;
   padding: 0.5em;
   width: 100%;
 }
@@ -173,7 +176,9 @@ footer a:hover {
 .wrapper li {
   padding: 0.7em;
 }
-/*************design selection *****/
+/*
+*$design-selection
+*/
 .design-selection {
   margin-top: 1em;
 }
@@ -198,7 +203,9 @@ footer a:hover {
   padding-top: 0.7rem;
   display: inline-block;
 }
-/**************** aside archives ***************/
+/*
+*$design-archives
+*/
 .design-archives {
   background: #90ffa5;
   position: relative;
@@ -310,30 +317,67 @@ footer a:hover {
   -moz-background-size: 6rem;
   background-size: 6rem;
 }
-/**************** aside resources ***********/
+/*
+*$zen-reources
+*/
 .zen-resources {
-  margin-top: 1em;
+  background-color: #cd853f;
 }
-.zen-resources a {
-  padding: 0.3em;
+.zen-resources h3 {
+  display: none;
 }
-.zen-resources .view-css a:before {
+.zen-resources ul {
+  border-spacing: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.zen-resources li {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+}
+.zen-resources a,
+.zen-resources abbr {
+  color: transparent;
+}
+.zen-resources a:before {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  font-size: 2.5rem;
+  color: #808080;
+}
+.view-css a:before {
   content: '\e9ce';
   font-family: 'icomoon';
 }
-.zen-resources .css-resources a:before {
+.css-resources a:before {
   content: '\e991';
   font-family: 'icomoon';
 }
-.zen-resources .zen-faq a:before {
+.zen-faq a:before {
   content: '\e991';
   font-family: 'icomoon';
 }
-.zen-resources .zen-submit a:before {
+.zen-submit a:before {
   content: '\e908';
   font-family: 'icomoon';
 }
-.zen-resources .zen-translations a:before {
+.zen-translations a:before {
   content: '\e9c9';
   font-family: 'icomoon';
 }
