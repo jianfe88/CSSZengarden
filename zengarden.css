@@ -65,7 +65,7 @@ p {
 header {
   padding: 0.5em;
 }
-/*------------------------------------*     $page-wrapper contenedor general
+/*------------------------------------*    $page-wrapper contenedor general
 \*------------------------------------*/
 .page-wrapper {
   background-color: #040323;
@@ -75,26 +75,15 @@ header {
   padding: 0.5rem;
   width: 100%;
 }
-/*------------------------------------*     $intro
+/*------------------------------------*    $intro
 \*------------------------------------*/
-.intro div {
-  padding: 1em 0;
-}
-.summary,
-.preamble {
-  padding: 0.3em 0;
-}
-/*------------------------------------*     $main
+/*------------------------------------*    $main
 \*------------------------------------*/
-.main div {
-  padding: 1em 0;
-}
 /*
 *$footer
 */
 footer {
   background: #49337a;
-  margin: 1em 0;
   text-align: center;
   padding: 1em 0;
 }
@@ -154,17 +143,12 @@ footer a:hover {
 .zen-github:before {
   content: "\eab1";
 }
-/*------------------------------------*     $sidebar
+/*------------------------------------*    $sidebar
 \*------------------------------------*/
 .wrapper {
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  margin-top: 5em;
-  padding: 0.5em;
+  display: table;
+  margin-top: 0;
+  padding: 0;
   width: 100%;
 }
 .wrapper h1,
@@ -179,8 +163,8 @@ footer a:hover {
 /*
 *$design-selection
 */
-.design-selection {
-  margin-top: 1em;
+.design-selection h3 {
+  display: none;
 }
 .design-selection ul {
   background: #3b72ff;
@@ -207,42 +191,47 @@ footer a:hover {
 *$design-archives
 */
 .design-archives {
-  background: #90ffa5;
+  display: table-header-group;
+  background: #ccc;
   position: relative;
+a
 }
 .design-archives h3 {
   visibility: hidden;
   height: 0;
 }
 .design-archives ul {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  -o-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
   height: 8rem;
-  padding: 0 0.5rem;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
 }
 .design-archives li {
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  display: inline-block;
 }
 .previous {
-  background: #4d5f8d;
   -webkit-box-ordinal-group: -1;
   -moz-box-ordinal-group: -1;
   -o-box-ordinal-group: -1;
@@ -268,7 +257,6 @@ footer a:hover {
   margin-left: -0.6rem;
 }
 .next {
-  background: #4d5f8d;
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
   -o-box-ordinal-group: 1;
@@ -294,7 +282,6 @@ footer a:hover {
   margin-left: 0.6rem;
 }
 .viewall {
-  background: #4d5f8d;
   width: 6rem;
   height: 6rem;
   text-align: center;
@@ -318,37 +305,50 @@ footer a:hover {
   background-size: 6rem;
 }
 /*
-*$zen-reources
+*$zen-reources 
 */
 .zen-resources {
-  background-color: #cd853f;
+  background-color: #ccc;
 }
 .zen-resources h3 {
   display: none;
 }
 .zen-resources ul {
   border-spacing: 5px;
-  width: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-pack: distribute;
-  -moz-box-pack: distribute;
-  -o-box-pack: distribute;
-  -ms-flex-pack: distribute;
-  -webkit-justify-content: space-around;
-  justify-content: space-around;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5em;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 1rem 0;
 }
 .zen-resources li {
+  border: 2px solid #f86;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-  width: 3rem;
+  -webkit-box-shadow: 3px 2px 3px 4px rgba(0,0,0,0.7);
+  box-shadow: 3px 2px 3px 4px rgba(0,0,0,0.7);
   height: 3rem;
+  margin: 0.5rem 0.5rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 3rem;
 }
 .zen-resources a,
 .zen-resources abbr {
@@ -356,10 +356,11 @@ footer a:hover {
 }
 .zen-resources a:before {
   display: inline-block;
-  height: 3rem;
-  width: 3rem;
   font-size: 2.5rem;
   color: #808080;
+  margin: 0;
+  padding: 0;
+  line-height: 3rem;
 }
 .view-css a:before {
   content: '\e9ce';

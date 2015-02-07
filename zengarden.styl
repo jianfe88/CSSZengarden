@@ -18,17 +18,20 @@
 }
 
 body 
-	color #23aA5D
+	color white
 	font-family: 'Orbitron', sans-serif;
 	font-size 14px
 	font-weight 400
+	
 *
 	margin 0
 	padding 0
 	list-style none
 	text-decoration none
+
 a 
 	color #5140E8	
+
 a:hover
 	color #FF0000
 	// background-color #23aa5d
@@ -43,7 +46,6 @@ h1
 	box-sizing: border-box;
 	color #bb4389;
 	font-family: 'Conv_BLADRMF_';
-	// line-height: 2.5em;
 	letter-spacing .4em
 	padding .5em 0
 	text-align: center;
@@ -73,7 +75,7 @@ header
     $page-wrapper contenedor general
 \*------------------------------------*/	
 .page-wrapper
-	background-color: #040323
+	background-color: #fff
 	box-sizing border-box
 	padding .5rem
 	width 100%
@@ -84,21 +86,17 @@ header
 /*------------------------------------*\
     $intro
 \*------------------------------------*/
-.intro 
-	div
-		padding 1em 0
-.summary
+// .intro 
+
+// .summary
 	
-.preamble
-	padding .3em 0
+// .preamble
+// 	padding .3em 0
 	
 /*------------------------------------*\
     $main
 \*------------------------------------*/
-.main 
-	div
-		padding 1em 0
-
+// .main 
 	
 // .explanation
 	
@@ -116,7 +114,6 @@ header
 */
 footer 
 	background #49337A
-	margin 1em 0
 	text-align center
 	padding 1em 0
 footer a 
@@ -171,12 +168,9 @@ footer a:hover
     $sidebar
 \*------------------------------------*/
 .wrapper
-	// background pink
-	// display flex
-	flex-direction row
-	margin-top 5em
-	// max-width 350px
-	padding .5em
+	display table
+	margin-top 0
+	padding 0
 	width 100%
 	h1, h2, h3, h4
 		border-top none
@@ -188,7 +182,9 @@ footer a:hover
 *$design-selection
 */	
 .design-selection
-	margin-top 1em
+
+	h3
+		display none
 	ul 
 		background #3B72FF
 		color #666
@@ -197,11 +193,13 @@ footer a:hover
 		
 	li:nth-child(2n)
 		background rgba(255, 255, 255, .3)
+
 .design-name
 	color #5140E8
 	display block
 	text-transform uppercase
 	font-weight 500
+
 .designer-name
 	color #666
 	padding-top .7rem 
@@ -212,32 +210,35 @@ footer a:hover
 *$design-archives
 */
 .design-archives
-	// order -1
-	background #90ffa5
+	display table-header-group
+	background #ccc
 	position relative
 	// margin-top 1em
 	h3 
-		visibility  hidden
+		visibility hidden
 		height 0
 		
 	ul
-		display flex
-		justify-content space-between
-
 		align-items center
+		box-sizing border-box
+		display flex
 		height 8rem
-		padding 0 .5rem
+		justify-content space-between
+		padding .5rem 
+		width 90%
+		margin 0 auto
 	li 
 		border-radius 50%	
-		display inline-block
+		// display inline-block
+		// border 1px solid #f86
+	a
 .previous
-	background #4d5f8d
+	// background #4d5f8d
 	order -1
 	width 3rem
 	height 3rem
 	
 	a
-		// text-align right	
 		background-image: url(img/rocket-left.png)
 		background-repeat no-repeat
 		background-position: 0 50% 
@@ -247,8 +248,9 @@ footer a:hover
 		height 3rem
 	:hover, :focus
 		margin-left -.6rem
+
 .next 
-	background #4d5f8d
+	// background #4d5f8d
 	order 1
 	width 3rem
 	height 3rem
@@ -262,8 +264,9 @@ footer a:hover
 		height 3rem
 	:hover, :focus
 		margin-left .6rem
+
 .viewall
-	background #4d5f8d
+	// background #4d5f8d
 	width 6rem
 	height 6rem
 	text-align center
@@ -280,36 +283,46 @@ footer a:hover
 	:hover
 		background-size 6rem
 /*
-*$zen-reources
+*$zen-reources 
 */
 .zen-resources
 	// font-size 3rem
-	background-color: peru
+	background-color #ccc
 	h3
 		display none
 	ul
-		// background-color: #FFF
 		border-spacing 5px
-		width 100%
-		
 		display flex
-		justify-content space-around
+		justify-content center
+		width 100%
+		margin-bottom 5em
+		flex-wrap wrap
+		padding 1rem 0
+		
 	li 
+		// background-color: #FFF
+		border 2px solid #f86
 		border-radius 50%
-		// border 2px solid #f86
-		// background-color: #ddd
-		position relative
-		overflow hidden
-		width 3rem
+		box-shadow 3px 2px 3px 4px rgba(0,0,0, .7)
 		height 3rem
+		margin .5rem .5rem
+		overflow hidden
+		position relative
+		text-align center
+		width 3rem
 	a, abbr
 		color transparent
 	a:before
+		// background-color: blue
 		display inline-block
-		height 3rem
-		width 3rem
+		// height 3rem
+		// width 3rem
 		font-size 2.5rem
 		color grey
+		margin 0
+		padding 0
+		line-height 3rem
+		
 .view-css a:before
 	content '\e9ce'
 	font-family 'icomoon'
