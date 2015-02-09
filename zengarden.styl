@@ -1,4 +1,5 @@
 @import nib
+@import "normalize/normalize.styl"
 @font-face {
 	font-family: 'Conv_BLADRMF_';
 	src: url('fonts/BLADRMF_.eot');
@@ -17,30 +18,18 @@
 	font-style: normal;
 }
 
-body 
-	color white
+html 
 	font-family: 'Orbitron', sans-serif;
-	font-size 14px
 	font-weight 400
+	color white
 	
-*
-	margin 0
-	padding 0
-	list-style none
-	text-decoration none
 
 a 
-	color #5140E8	
-
+	color red
 a:hover
-	color #FF0000
-	// background-color #23aa5d
+	color white
 	text-decoration underline
 	
-abbr
-	color #42FF65
-	// font-weight 900
-	// text-shadow 1px 1px .2em #41B263
 		
 h1
 	box-sizing: border-box;
@@ -75,7 +64,7 @@ header
     $page-wrapper contenedor general
 \*------------------------------------*/	
 .page-wrapper
-	background-color: #fff
+	background-color: #140460
 	box-sizing border-box
 	padding .5rem
 	width 100%
@@ -123,12 +112,12 @@ footer a
 	color transparent
 	color: rgba(255, 255, 255, 0);
 	display: inline-block;
-	height: 40px;
+	height: 3rem;
 	margin: 0 0.3em;
 	overflow: hidden;
 	position: relative;
 	transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-	width: 40px;
+	width: 3rem;
 footer a:before
 		-webkit-font-smoothing: antialiased;
 		color: rgba(255, 255, 255, .9);
@@ -293,23 +282,23 @@ footer a:hover
 	ul
 		border-spacing 5px
 		display flex
-		justify-content center
-		width 100%
-		margin-bottom 5em
 		flex-wrap wrap
+		justify-content center
+		margin-bottom 5em
 		padding 1rem 0
+		width 100%
 		
 	li 
 		// background-color: #FFF
 		border 2px solid #f86
 		border-radius 50%
 		box-shadow 3px 2px 3px 4px rgba(0,0,0, .7)
-		height 3rem
+		height 2.5rem
 		margin .5rem .5rem
 		overflow hidden
 		position relative
 		text-align center
-		width 3rem
+		width 2.5rem
 	a, abbr
 		color transparent
 	a:before
@@ -317,7 +306,7 @@ footer a:hover
 		display inline-block
 		// height 3rem
 		// width 3rem
-		font-size 2.5rem
+		font-size 2rem
 		color grey
 		margin 0
 		padding 0

@@ -1,3 +1,190 @@
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
 @font-face {
   font-family: 'Conv_BLADRMF_';
   src: url("fonts/BLADRMF_.eot");
@@ -12,27 +199,17 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-  color: #23aa5d;
+html {
   font-family: 'Orbitron', sans-serif;
-  font-size: 14px;
   font-weight: 400;
-}
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
+  color: #fff;
 }
 a {
-  color: #5140e8;
+  color: #f00;
 }
 a:hover {
-  color: #f00;
+  color: #fff;
   text-decoration: underline;
-}
-abbr {
-  color: #42ff65;
 }
 h1 {
   -webkit-box-sizing: border-box;
@@ -65,19 +242,19 @@ p {
 header {
   padding: 0.5em;
 }
-/*------------------------------------*    $page-wrapper contenedor general
+/*------------------------------------*     $page-wrapper contenedor general
 \*------------------------------------*/
 .page-wrapper {
-  background-color: #040323;
+  background-color: #140460;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0.5rem;
   width: 100%;
 }
-/*------------------------------------*    $intro
+/*------------------------------------*     $intro
 \*------------------------------------*/
-/*------------------------------------*    $main
+/*------------------------------------*     $main
 \*------------------------------------*/
 /*
 *$footer
@@ -94,7 +271,7 @@ footer a {
   color: transparent;
   color: rgba(255,255,255,0);
   display: inline-block;
-  height: 40px;
+  height: 3rem;
   margin: 0 0.3em;
   overflow: hidden;
   position: relative;
@@ -103,7 +280,7 @@ footer a {
   -o-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -ms-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-  width: 40px;
+  width: 3rem;
 }
 footer a:before {
   -webkit-font-smoothing: antialiased;
@@ -143,7 +320,7 @@ footer a:hover {
 .zen-github:before {
   content: "\eab1";
 }
-/*------------------------------------*    $sidebar
+/*------------------------------------*     $sidebar
 \*------------------------------------*/
 .wrapper {
   display: table;
@@ -321,21 +498,21 @@ a
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -o-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 5em;
   -webkit-box-lines: multiple;
   -moz-box-lines: multiple;
   -o-box-lines: multiple;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 5em;
   padding: 1rem 0;
+  width: 100%;
 }
 .zen-resources li {
   border: 2px solid #f86;
@@ -343,12 +520,12 @@ a
   border-radius: 50%;
   -webkit-box-shadow: 3px 2px 3px 4px rgba(0,0,0,0.7);
   box-shadow: 3px 2px 3px 4px rgba(0,0,0,0.7);
-  height: 3rem;
+  height: 2.5rem;
   margin: 0.5rem 0.5rem;
   overflow: hidden;
   position: relative;
   text-align: center;
-  width: 3rem;
+  width: 2.5rem;
 }
 .zen-resources a,
 .zen-resources abbr {
@@ -356,7 +533,7 @@ a
 }
 .zen-resources a:before {
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #808080;
   margin: 0;
   padding: 0;
