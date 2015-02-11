@@ -256,6 +256,20 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+@media (min-width: 740px) {
+  .preamble {
+    display: table;
+    padding: 0 0 1rem 0;
+  }
+  .preamble h3 {
+    display: table-caption;
+  }
+  .preamble p {
+    display: table-cell;
+    width: 33.333333%;
+    padding: 0 1rem;
+  }
+}
 .main {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -279,11 +293,6 @@ header {
   background: #ece59a;
   color: #000;
 }
-footer {
-  background: #848d82;
-  text-align: center;
-  padding: 1em 0;
-}
 .sidebar {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -302,6 +311,16 @@ footer {
   padding: 0;
   width: 100%;
 }
+@media (min-width: 475px) {
+  .design-selection ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
+  }
+}
 /**
 *Base
 **/
@@ -310,6 +329,11 @@ html {
   font-family: 'Orbitron', sans-serif;
   font-size: 90%;
   font-weight: 400;
+}
+@media (min-width: 767px) {
+  html {
+    font-size: 95%;
+  }
 }
 a {
   color: #fd6e8a;
@@ -347,17 +371,21 @@ p {
 /*
 *$footer
 */
+footer {
+  background: #848d82;
+  text-align: center;
+  padding: 1em 0;
+}
 footer a {
-  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
-  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   background: none;
   color: transparent;
-  color: rgba(255,255,255,0);
   display: inline-block;
   height: 3rem;
-  margin: 0 0.3em;
+  margin: 0 0.3rem;
   overflow: hidden;
   position: relative;
+  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   -o-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
@@ -365,8 +393,12 @@ footer a {
   transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
   width: 3rem;
 }
+@media (min-width: 475px) {
+  footer a {
+    margin: 0 0.7rem;
+  }
+}
 footer a:before {
-  -webkit-font-smoothing: antialiased;
   color: rgba(255,255,255,0.9);
   display: block;
   font-family: 'icomoon';
@@ -384,9 +416,9 @@ footer a:before {
 }
 footer a:hover {
   color: transparent;
-  background: none;
-  -webkit-box-shadow: -5px -5px 5px #f00;
-  box-shadow: -5px -5px 5px #f00;
+}
+footer a:hover::before {
+  color: #fd6e8a;
 }
 .zen-validate-html:before {
   content: "\eadf";
@@ -597,6 +629,11 @@ a
   margin: 0.5rem;
   text-align: center;
   width: 3rem;
+}
+@media (min-width: 475px) {
+  .zen-resources li {
+    margin: 1rem;
+  }
 }
 .zen-resources a,
 .zen-resources abbr {
