@@ -1,0 +1,63 @@
+/*
+*$footer
+*/
+footer {
+  background: tarmac;
+  text-align: center;
+  padding: 1em 0;
+}
+footer a {
+  background: none;
+  color: transparent;
+  display: inline-block;
+  height: 3rem;
+  margin: 0 0.3rem;
+  overflow: hidden;
+  position: relative;
+  -moz-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  -webkit-transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  transition: color 0.25s ease-out, box-shadow 0.25s ease-out;
+  width: 3rem;
+}
+@media (min-width: 475px) {
+  footer a {
+    margin: 0 0.7rem;
+  }
+}
+footer a:before {
+  color: rgba(255,255,255,0.9);
+  display: block;
+  font-family: 'icomoon';
+  font-size: 40px;
+  font-variant: normal;
+  font-weight: normal;
+  left: 0;
+  line-height: 1;
+  overflow: visible;
+  position: absolute;
+  speak: none;
+  text-indent: 0;
+  text-transform: none;
+  top: 3px;
+}
+footer a:hover {
+  color: transparent;
+}
+footer a:hover::before {
+  color: peony;
+}
+.zen-validate-html:before {
+  content: "\eadf";
+}
+.zen-validate-css:before {
+  content: "\eae1";
+}
+.zen-license:before {
+  content: "\eab1";
+}
+.zen-accessibility:before {
+  content: "\e9b2";
+}
+.zen-github:before {
+  content: "\eab1";
+}

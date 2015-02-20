@@ -1,0 +1,170 @@
+/*
+*$design-selection
+*/
+.design-selection h3 {
+  display: none;
+}
+.design-selection ul {
+  padding: 0;
+}
+.design-selection li {
+  width: 50%;
+  display: inline-block;
+  margin-right: -2px;
+}
+.design-selection li:nth-child(2n+1) {
+  background: rgba(255,255,255,0.8);
+}
+.design-selection li:nth-child(2n) {
+  background: rgba(255,255,255,0.7);
+}
+.design-name {
+  color: peony;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.designer-name {
+  color: #666;
+  padding-top: 0.7rem;
+  display: inline-block;
+}
+/*
+*$design-archives
+*/
+.design-archives {
+  display: table-header-group;
+  position: relative;
+}
+.design-archives h3 {
+  display: none;
+}
+.design-archives ul {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 8rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.design-archives li {
+  border-radius: 50%;
+}
+.previous {
+  order: -1;
+  width: 3rem;
+  height: 3rem;
+}
+.previous a {
+  background-image: url("img/rocket-left.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 3rem;
+  color: transparent;
+  display: inline-block;
+  height: 3rem;
+}
+.previous :hover,
+.previous :focus {
+  margin-left: -0.6rem;
+}
+.next {
+  order: 1;
+  width: 3rem;
+  height: 3rem;
+}
+.next a {
+  background-image: url("img/rocket-right.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 3rem;
+  color: transparent;
+  display: inline-block;
+  height: 3rem;
+}
+.next :hover,
+.next :focus {
+  margin-left: 0.6rem;
+}
+.viewall {
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.viewall a {
+  display: inline-block;
+  color: transparent;
+  background-image: url("img/viewall.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 5.5rem;
+  height: 6rem;
+  padding: 0;
+}
+.viewall :hover {
+  background-size: 6rem;
+}
+/*
+*$zen-reources 
+*/
+.zen-resources h3 {
+  display: none;
+}
+.zen-resources ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+.zen-resources li {
+  border: 2px solid #f86;
+  border-radius: 50%;
+  box-shadow: 3px 2px 3px 4px rgba(200,200,200,0.7);
+  height: 3rem;
+  margin: 0.5rem;
+  text-align: center;
+  width: 3rem;
+}
+@media (min-width: 475px) {
+  .zen-resources li {
+    margin: 1rem;
+  }
+}
+.zen-resources a,
+.zen-resources abbr {
+  color: transparent;
+}
+.zen-resources a:before {
+  display: inline-block;
+  font-size: 2rem;
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  line-height: 3rem;
+}
+.view-css a:before {
+  content: '\e9ce';
+  font-family: 'icomoon';
+}
+.css-resources a:before {
+  content: '\e991';
+  font-family: 'icomoon';
+}
+.zen-faq a:before {
+  content: '\e991';
+  font-family: 'icomoon';
+}
+.zen-submit a:before {
+  content: '\e908';
+  font-family: 'icomoon';
+}
+.zen-translations a:before {
+  content: '\e9c9';
+  font-family: 'icomoon';
+}
