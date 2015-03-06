@@ -420,6 +420,9 @@ footer a:hover::before {
 .design-selection ul a {
   text-decoration: none;
 }
+.design-selection ul a:hover {
+  color: #fff;
+}
 .design-selection li {
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
@@ -427,10 +430,10 @@ footer a:hover::before {
   text-align: center;
 }
 .design-selection li:nth-child(2n+1) {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.6);
 }
 .design-selection li:nth-child(2n) {
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.4);
 }
 a.design-name {
   color: #fd6e8a;
@@ -504,11 +507,12 @@ a.designer-name {
   background-image: url("../img/rocket-right.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  -webkit-background-size: 2.5rem;
-  -moz-background-size: 2.5rem;
-  background-size: 2.5rem;
+  -webkit-background-size: 3rem;
+  -moz-background-size: 3rem;
+  background-size: 3rem;
   color: transparent;
   display: inline-block;
+  height: 4rem;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -545,6 +549,7 @@ a.designer-name {
   background-size: 3rem;
   color: transparent;
   display: inline-block;
+  height: 4rem;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -595,6 +600,9 @@ a.designer-name {
 .zen-resources li a {
   color: #fd6e8a;
   text-decoration: none;
+}
+.zen-resources li a:hover {
+  color: #fff;
 }
 .page-wrapper {
   width: 100%;
