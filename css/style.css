@@ -268,6 +268,7 @@ header {
   padding-right: 1rem;
 }
 .preamble {
+  background-image: url("../../img/fondo_1.png");
   background-color: #848d82;
   color: #fff;
   -webkit-border-radius: 10px;
@@ -278,22 +279,46 @@ header {
   margin-right: auto;
   margin-bottom: 0.5rem;
 }
-.main div:nth-child(2n+1) {
-  background: #2c3b63;
-  color: #fff;
-}
-.main div:nth-child(2n) {
-  background: #848d82;
-  color: #fff;
+.main {
+  background-color: #ece59a;
 }
 .main div {
   -webkit-border-radius: 10px;
   border-radius: 10px;
+  color: #fff;
   margin-bottom: 0.5rem;
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
   width: 95%;
+}
+.explanation {
+  background-color: #ece59a;
+  background-image: url("../../img/fondo_2.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.participation {
+  background-color: minnight;
+  background-image: url("../../img/fondo_3.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.benefits {
+  background-color: #848d82;
+  background-image: url("../../img/fondo_4.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.requirements {
+  background-color: #848d82;
+  background-image: url("../../img/fondo_5.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 .requirements p:last-of-type {
   background-color: #add8e6;
@@ -372,6 +397,7 @@ footer a:hover::before {
   width: 100%;
 }
 .wrapper {
+  background-color: #ece59a;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
